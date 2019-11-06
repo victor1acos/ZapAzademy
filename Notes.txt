@@ -1,0 +1,18 @@
+﻿--------------HTML Y CSS ------------------
+# -> serefiere a los id
+
+. -> refenciado a la clase
+
+<a> -> Hipervinculo
+colspan -> Ancho de la fila
+tr -> Table row / Filas
+td -> Table data / Columna o Celda de una fila
+<hr> -> Linea horizontal (regla)
+
+href="#" -> es para no dejar vació el hipervinculo y te lleva al inicio de la pag si es que está dentro de un 	hipervinculo
+<nav>
+            <a href="#" style="border:1px solid #ddd; border-radius: 4px;">botón 1</a>
+            <a href="#">botón 2</a>
+            <a href="#">botón 3</a>
+            <a href="#">botón 4</a>
+          </nav>

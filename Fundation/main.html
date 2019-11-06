@@ -1,0 +1,196 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <header>
+  	<div class="grid-container">
+    	<div class="grid-x grid-padding-x grid-padding-y">
+    		<div class="large-12 medium-12 cell show-for-small-only">
+          <button type="button" class="button clear secondary hamburger" data-toggle="offCanvas">
+            <img class="hamburger img" src="img/menu_white.png"></i>
+          </button>
+          <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      				<ul class="vertical menu">
+                <li class="menu-text">MATEASY</li>
+      					<li><a href="#">Agenda</a></li>
+      					<li><a href="#">Programa</a></li>
+      					<li><a href="#">Acerca de nosotros</a></li>
+      				</ul>
+          </div>
+    		</div>
+        <div class="large-12 medium-12 cell hide-for-small-only">
+          <nav id="main_menu">
+            <ul class="menu">
+              <li><a href="#">Agenda</a></li>
+              <li><a href="#">Programa</a></li>
+              <li><a href="#">Acerca de nosotros</a></li>
+            </ul>
+          </nav>
+        </div>
+    	</div>
+    </div>
+  </header>
+  <body>
+  <section name="carrusel">
+    <div class="orbit" role="region" aria-label="mateasy" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next</span>&#9654;&#xFE0E;</button>
+      </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/clases_2.png" alt="Equipos de trabajo">
+            <figcaption class="orbit-caption">Equipos de trabajo</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/clases_3.png" alt="Aprendizaje colaborativo">
+            <figcaption class="orbit-caption">Aprendizaje colaborativo</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/clases_1.png" alt="Clases personalizadas">
+            <figcaption class="orbit-caption">Clases personalizadas</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="img/niña.png">
+          </figure>
+        </li>
+      </ul>
+    </div>
+      <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0">
+          <span class="show-for-sr">Equipos de trabajo</span>
+          <span class="show-for-sr" data-slide-active-label>MATEASY</span>
+        </button>
+        <button data-slide="1"><span class="show-for-sr">Aprendizaje colaborativo</span></button>
+        <button data-slide="2"><span class="show-for-sr">Clases personalizadas</span></button>
+        <button data-slide="3"><span class="show-for-sr"></span></button>
+      </nav>
+    </div>
+  </section>
+  <section name="body">    
+    <div>
+      <ul class="accordion" data-accordion>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#deeplink1" class="accordion-title">Nuestros cursos</a>
+          <div class="accordion-content" data-tab-content id="deeplink1" style="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#deeplink2" class="accordion-title">Calendario de actividades</a>
+          <div class="accordion-content cell small-6 medium-4 large-10" data-tab-content id="deeplink2">
+            <iframe src="https://calendar.google.com/calendar/embed?src=victor11300005%40gmail.com&ctz=America%2FMexico_City" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#deeplink3" class="accordion-title">Acerca de Nosotros</a>
+          <div class="accordion-content" data-tab-content id="deeplink3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+  <footer>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="large-8 medium-8 small-12 cell">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d466.7404589816663!2d-103.39091361725734!3d20.631967775205734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1567641601046!5m2!1ses!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="large-4 medium-4 small-12 cell">
+            <ul class="vertical menu align-center">
+              <br class="hide-for-small-only"/><br class="hide-for-small-only"/><br class="hide-for-small-only"/>
+              <li><img src="img/fb.png" class="social-media"/><a href="https://fb.com">fb/mateasy</a></li>
+              <br/>
+              <li><img src="img/insta.png" class="social-media"/><a href="#">@mateasy</a></li>
+              <br/>
+              <li><img src="img/twit.png" class="social-media"/><a href="#">@mateasy_oficial</a></li>
+              <br/>
+              <li><img src="img/wapp.png" class="social-media"/><a href="#">3333526217</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
+
+<!--
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 medium-12 cell">
+            <img src="http://placehold.it/1200x400"/>
+        </div>
+      </div>
+  		-->
+      <!--
+      <div class="grid-x grid-padding-x">
+          <div class="large-3 medium-3 cell">
+            <img src="http://placehold.it/400x1200"/>
+          </div>
+          <div class="large-9 medium-9 cell">
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <img src="http://placehold.it/400x400"/>
+              </div>
+            </div>
+          </div>
+          <div class="large-4 medium-4 cell">
+            <img src="http://placehold.it/400x400"/>
+            <p>Text img 1</p>
+          </div>
+          <div class="large-4 medium-4 cell">
+            <img src="http://placehold.it/400x400"/>
+            <p>Text img 2</p>
+          </div>
+          <div class="large-4 medium-4 cell">
+            <img src="http://placehold.it/400x400"/>
+            <p>Text img 3</p>
+          </div>
+      </div>
